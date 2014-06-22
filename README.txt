@@ -3,7 +3,7 @@ Aim of the Project:
 Check the spelling of some text from an existing web server using XML and SOAP, client application will connect to an existing web server that is exposing a service to a client that can be accessed with HTTP, possibly by a client side script in a web browser. Client process will connect to the server and request services from an object on the server that will do the spelling check.
 
 Run client program.
-(/SpeelingCorrector/src/com/cdyne/ws/Client.java)
+(/SpellingCorrector/src/com/cdyne/ws/Client.java)
 
 Client Process: Displays a form that enables the user to enter text. User can select a word from the text and click on “Get suggestion” Button which would send a request to the web server (using SOAP and XML) requesting spelling corrections. Web server provides response which consists of set of spelling correction suggestion for the selected word.
 Running the client also displays another window that shows the SOAP request and response in XML format.
